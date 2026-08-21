@@ -21,13 +21,6 @@ The notes cover:
 - Problem Solving
 - And more
 
-## 📊 Progress
-
-| Topic | Status |
-|--------|--------|
-| C++ Basics | ✅ Completed |
-| DSA | ⏳ Not Started |
-
 ## 🚀 Currently Learning
 
 - Conditional Statements
