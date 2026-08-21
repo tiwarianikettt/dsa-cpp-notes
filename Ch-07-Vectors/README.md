@@ -420,3 +420,44 @@ cout << v[2];
 | `insert()`        | Adds an element at a specific position            | `v.insert(v.begin()+1, 15)` |
 | `erase()`         | Removes element(s) from a specific position/range | `v.erase(v.begin()+1)`      |
 | `capacity()`      | Returns the current storage capacity              | `v.capacity()`              |
+
+
+### Static vs Dynamic Allocation:
+
+#### Static Allocation:
+
+In **static allocation**, the memory size is fixed and generally decided before the program runs.
+
+Example:
+
+```cpp
+int arr[5] = {10, 20, 30, 40, 50};
+```
+
+Here:
+
+- Size = `5`
+- The size cannot be changed during execution.
+- Memory is allocated for 5 integers.
+
+You cannot do:
+
+```cpp
+arr[5] = 60;  // outside the array
+```
+
+#### Dynamic Allocation:
+
+In **dynamic allocation**, memory can be allocated during program execution, and the size can be determined at runtime.
+
+A vector is a common C++ DSA example:
+
+```cpp
+vector<int> v;
+
+v.push_back(10);
+v.push_back(20);
+v.push_back(30);
+```
+
+The vector can grow as elements are added.
