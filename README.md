@@ -21,12 +21,6 @@ The notes cover:
 - Problem Solving
 - And more
 
-## 🚀 Currently Learning
-
-- Conditional Statements
-- Loops
-- Functions
-
 ## 📚 Learning Resource
 
 These notes are written and maintained by me as part of my C++ & DSA learning journey.
